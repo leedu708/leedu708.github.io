@@ -4,25 +4,55 @@
 /* yellowtail */
 @import url(https://fonts.googleapis.com/css?family=Yellowtail);
 
+/* monsterrat */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
 body {
   font-family: 'Open Sans';
 }
 
 header {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 #title {
   font-family: 'Yellowtail';
-  font-size: 72px;
+  font-size: 84px;
+}
+
+#title a {
+  color: #000;
+}
+
+#title a:hover,
+#title a:focus,
+#title a:active {
+  text-decoration: none;
 }
 
 /* navbar */
 
 #navbar li {
-  width: 180px;
-  height: 40px;
-  line-height: 40px;
-  margin: 10px;
-  font-size: 24px;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0px 15px 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: border 0.5s ease;
+}
+
+#navbar li:hover {
+  border: 2px solid #A3A3A3;
+  border-radius: 7px;
+  transition: border 0.5s ease-in;
+}
+
+/* content */
+.content-wrapper {
+  margin-top: 50px;
 }

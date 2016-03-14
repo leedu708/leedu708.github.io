@@ -7,7 +7,6 @@
     <script src='vendor/js/angular-animate.js'></script>
     <script src='vendor/js/angular-sanitize.js'></script>
     <script src='vendor/js/angular-ui-router.js'></script>
-    <script src='vendor/js/restangular.js'></script>
     <script src='vendor/js/underscore.js'></script>
 
     <!-- jQuery -->
@@ -25,28 +24,32 @@
       <div class='row'>
 
         <header class='text-center'>
-          <h1 class='page-header' id='title'>Dustin Lee</h1>
+          <h1 class='page-header' id='title'>
+            <a ui-sref='home'>Dustin Lee</a>
+          </h1>
 
           <ul class='list-inline' id='navbar'>
-            <li>
-              <a ui-sref='about'>About</a>
+            <li ui-sref='about'>
+              About
+            </li ui-sref='portfolio'>
+
+            <li ui-sref='skills'>
+              Skills
             </li>
 
-            <li>
-              <a ui-sref='skills'>Skills</a>
+            <li ui-sref='portfolio'>
+              Portfolio
             </li>
 
-            <li>
-              <a ui-sref='portfolio'>Portfolio</a>
-            </li>
-
-            <li>
-              <a ui-sref='contact'>Contact</a>
+            <li ui-sref='contact'>
+              Contact
             </li>
           </ul>
         </header>
 
-        <ui-view></ui-view>
+        <div class='content-wrapper'>
+          <ui-view></ui-view>
+        </div>
 
       </div>
     </div>

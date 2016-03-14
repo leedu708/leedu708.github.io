@@ -1,4 +1,4 @@
-var leedu = angular.module('leedu', ['ui.router']);
+var leedu = angular.module('leedu', ['ui.router', 'ngAnimate']);
 
 leedu.config( function($stateProvider, $urlRouterProvider) {
 
