@@ -1,7 +1,8 @@
 leedu.controller('HomeCtrl',
-  ['$scope',
-  function($scope) {
+  ['$scope', '$rootScope',
+  function($scope, $rootScope) {
 
+    $rootScope.title = 'Home';
     $scope.test = 'Hello, Dustin!';
 
   }]);

@@ -14,33 +14,25 @@ leedu.config( function($stateProvider, $urlRouterProvider) {
     .state('about', {
       url: '/about',
       templateUrl: 'views/about.html',
-      controller: ['$scope', function($scope) {
-        $scope.test = "About";
-      }]
+      controller: 'AboutCtrl'
     })
 
     .state('skills', {
       url: '/skills',
       templateUrl: 'views/skills.html',
-      controller: ['$scope', function($scope) {
-        $scope.test = "Skills";
-      }]
+      controller: 'SkillsCtrl'
     })
 
     .state('portfolio', {
       url: '/portfolio',
       templateUrl: 'views/portfolio.html',
-      controller: ['$scope', function($scope) {
-        $scope.test = "Portfolio";
-      }]
+      controller: 'PortfolioCtrl'
     })
 
     .state('contact', {
       url: '/contact',
       templateUrl: 'views/contact.html',
-      controller: ['$scope', function($scope) {
-        $scope.test = "Contact";
-      }]
+      controller: 'ContactCtrl'
     })
 
 });
