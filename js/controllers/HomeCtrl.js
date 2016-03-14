@@ -1,4 +1,4 @@
-leedu.controller('MainCtrl',
+leedu.controller('HomeCtrl',
   ['$scope',
   function($scope) {
 

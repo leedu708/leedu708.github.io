@@ -1,0 +1,28 @@
+/* open sans */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/* yellowtail */
+@import url(https://fonts.googleapis.com/css?family=Yellowtail);
+
+body {
+  font-family: 'Open Sans';
+}
+
+header {
+  margin-top: 100px;
+}
+
+#title {
+  font-family: 'Yellowtail';
+  font-size: 72px;
+}
+
+/* navbar */
+
+#navbar li {
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  margin: 10px;
+  font-size: 24px;
+}
