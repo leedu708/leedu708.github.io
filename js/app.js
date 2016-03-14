@@ -1,4 +1,4 @@
-var leedu = angular.module('leedu', ['ui.router', 'ngAnimate']);
+var leedu = angular.module('leedu', ['ui.router', 'ngAnimate', 'ngSanitize']);
 
 leedu.config( function($stateProvider, $urlRouterProvider) {
 
