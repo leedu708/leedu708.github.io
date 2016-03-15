@@ -18,7 +18,7 @@ leedu.config( function($stateProvider, $urlRouterProvider) {
     })
 
     .state('skills', {
-      url: '/skills',
+      url: '/resume',
       templateUrl: 'views/skills.html',
       controller: 'SkillsCtrl'
     })
