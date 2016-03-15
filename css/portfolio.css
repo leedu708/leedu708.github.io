@@ -1,0 +1,8 @@
+/* portfolio */
+.project-wrapper {
+  background: #888;
+  height: 400px;
+  margin-bottom: 25px;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
