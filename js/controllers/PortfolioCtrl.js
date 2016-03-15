@@ -36,10 +36,10 @@ leedu.controller('PortfolioCtrl',
         preview: ''
       },
       {
-        title: "Where's Waldo",
+        title: "Asteroids",
         img: '/images/placeholder.png',
-        github: 'https://github.com/leedu708/project_wheres_waldo',
-        preview: ''
+        github: 'https://github.com/leedu708/assignment_js_oop',
+        preview: 'https://htmlpreview.github.io/?https://github.com/leedu708/assignment_js_oop/blob/master/index.html'
       }
     ];
 
