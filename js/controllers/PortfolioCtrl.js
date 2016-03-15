@@ -38,7 +38,7 @@ leedu.controller('PortfolioCtrl',
       {
         title: "Where's Waldo",
         img: '/images/placeholder.png',
-        github: 'https://github.com/leedu708/assignment_fideligard_spa',
+        github: 'https://github.com/leedu708/project_wheres_waldo',
         preview: ''
       }
     ];
