@@ -1,5 +1,5 @@
 <div class='row'>
-  <div class='col-xs-4' ng-repeat='project in projects'>
+  <div class='col-xs-4 text-center' ng-repeat='project in projects'>
     <div class='project-wrapper zoomIn' ng-mouseenter='hover=true' ng-mouseleave='hover=false'>
       <img ng-class="{'proj-img-hover': hover}" src='{{ project.img }}'>
       <div ng-class="{'project-desc': hover}">
