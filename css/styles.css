@@ -8,7 +8,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 
 /* merriweather */
-@import url(https://fonts.googleapis.com/css?family=Merriweather:900);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300italic,300,900,700);
 
 body {
   font-family: 'Open Sans';
@@ -103,6 +103,7 @@ header {
   background: url('../images/header.jpg');
   background-size: 100%;
   border-radius: 5px;
+  margin-bottom: 25px;
 }
 
 #header-text {
@@ -110,11 +111,48 @@ header {
   line-height: 400px;
   color: #FFF;
   font-size: 48px;
+  font-weight: 900;
   font-family: 'Merriweather';
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
 }
 
 #header-text .fa {
-  margin: 0px 20px;
+  margin: 0px 30px;
+}
+
+blockquote {
+  background: #F9F9F9;
+  border-left: 10px solid #CCC;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #CCC;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+  font-size: 32px;
+  font-family: 'Merriweather';
+  font-weight: 300;
+}
+
+.quote {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.quote p {
+  font-family: 'Merriweather';
+  font-weight: 700;
 }
 
 /* contact */
@@ -150,4 +188,13 @@ p .fa {
   color: #FFF;
   -webkit-transition: all 0.2s ease;
   transition: color 0.2s ease;
+}
+
+/* portfolio */
+.project-wrapper {
+  background: #888;
+  height: 400px;
+  margin-bottom: 25px;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }

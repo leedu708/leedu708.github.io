@@ -1,9 +1,18 @@
 <div class='row animated fadeIn'>
   <div id='header-image'>
     <div class='col-xs-10 col-xs-offset-1'>
-      <div class='text-center' id='header-text'>
-        Developer <span class='fa fa-square'></span> Engineer <span class='fa fa-square'></span> Designer
+      <div class='text-center fadeInDown' id='header-text'>
+        {{ header1 }} <span class='fa fa-square'></span> {{ header2 }} <span class='fa fa-square'></span> {{ header3 }}
       </div>
+    </div>
+  </div>
+
+  <div class='col-xs-8 col-xs-offset-2'>
+    <blockquote class='quote slideInLeft'>
+      <p><i>{{ quote.text }}</i></p>
+    </blockquote>
+    <div class='pull-right quote slideInRight'>
+      <p>- {{ quote.author }}</p>
     </div>
   </div>
 </div>

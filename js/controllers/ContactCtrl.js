@@ -4,7 +4,7 @@ leedu.controller('ContactCtrl',
 
     $rootScope.title = 'Contact Me';
     $scope.header = "Let's chat!";
-    $scope.email = "leedu708@gmail.com";
+    $scope.email = "djl265@cornell.edu";
     $scope.telephone = "(347) 753-3433";
 
   }]);

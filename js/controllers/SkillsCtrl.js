@@ -37,7 +37,8 @@ leedu.controller('SkillsCtrl',
         'PostgreSQL',
         'RSpec',
         'Capybara',
-        'RESTful APIs'
+        'RESTful APIs',
+        'Heroku'
         ],
       general: [
         'Git',
