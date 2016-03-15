@@ -14,9 +14,9 @@
   position: absolute;
   z-index: 1;
   left: 0;
-  -webkit-filter: grayscale(80%);
+  -webkit-filter: grayscale(85%);
   -webkit-transition: all 1s ease;
-  filter: grayscale(80%);
+  filter: grayscale(85%);
   transition: all 1s ease;
 }
 
@@ -29,13 +29,67 @@
 
 .project-desc {
   width: 95%;
-  height: 40%;
+  height: 41%;
   margin-top: 50%;
   left: 0;
   z-index: 2;
-  opacity: 0.3;
-  background: #FFF;
+  opacity: 0.7;
+  background: #000;
   position: absolute;
   -webkit-transition: background 1s ease;
   transition: background 1s ease;
+}
+
+.proj-title {
+  margin-top: 5%;
+  font-family: 'Merriweather';
+  font-size: 38px;
+  font-weight: 700;
+  color: #FFF;
+}
+
+.proj-btn {
+  border: 2px solid #FFF;
+  border-radius: 0px;
+  color: #FFF;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  margin: 0 10px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.proj-btn:hover {
+  background: #FFF;
+  color: #000;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.proj-links-wrapper {
+  margin-top: 5%;
+}
+
+.proj-links-wrapper a:focus {
+  color: #FFF;
+}
+
+.more-btn {
+  border: 2px solid #000;
+  border-radius: 0px;
+  color: #000;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.more-btn:hover {
+  background: #000;
+  color: #FFF;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
