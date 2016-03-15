@@ -1,8 +1,41 @@
 /* portfolio */
 .project-wrapper {
-  background: #888;
-  height: 400px;
-  margin-bottom: 25px;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  float: left;
   -webkit-animation-duration: 0.5s;
   animation-duration: 0.5s;
+}
+
+.project-wrapper img {
+  width: 95%;
+  height: 95%;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  -webkit-filter: grayscale(80%);
+  -webkit-transition: all 1s ease;
+  filter: grayscale(80%);
+  transition: all 1s ease;
+}
+
+.proj-img-hover {
+  -webkit-filter: grayscale(10%) !important;
+  -webkit-transition: all 1s ease !important;
+  filter: grayscale(10%) !important;
+  transition: all 1s ease !important;
+}
+
+.project-desc {
+  width: 95%;
+  height: 40%;
+  margin-top: 50%;
+  left: 0;
+  z-index: 2;
+  opacity: 0.3;
+  background: #FFF;
+  position: absolute;
+  -webkit-transition: background 1s ease;
+  transition: background 1s ease;
 }
