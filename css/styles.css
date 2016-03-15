@@ -101,20 +101,36 @@ header {
   -webkit-filter: grayscale(80%);
   filter: grayscale(80%);
   background: url('../images/header.jpg');
-  background-size: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   border-radius: 5px;
   margin-bottom: 25px;
 }
 
+#header-text:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+
 #header-text {
-  height: 400px;
-  line-height: 400px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: : middle;
   color: #FFF;
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 900;
   font-family: 'Merriweather';
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
+}
+
+@media only screen and (max-width: 992px) {
+  #header-text {
+    font-size: 24px;
+  }
 }
 
 #header-text .fa {
