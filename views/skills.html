@@ -2,16 +2,24 @@
   <div class='col-md-10 col-md-offset-1'>
     <!-- EDUCATION -->
     <div class='row'>
-      <h2 class='text-center page-header'>{{ education.title }}</h2>
-      <p ng-repeat='school in education.schools'>
-        <strong>{{ school.name }}</strong><i ng-if="school.location.length">, {{ school.location }}</i><br>
-        {{ school.description }}
-      </p>
+      <h2 class='page-header'>
+        {{ education.title }}
+        <a class='btn pull-right dl-btn' href='/files/resume.pdf'>
+          <b>Download as PDF</b>
+        </a>
+      </h2>
+
+      <div class='col-xs-12'>
+        <p ng-repeat='school in education.schools'>
+          <strong>{{ school.name }}</strong><i ng-if="school.location.length">, {{ school.location }}</i><br>
+          {{ school.description }}
+        </p>
+      </div>
     </div>
 
     <!-- SKILLS -->
     <div class='row skills-wrapper'>
-      <h2 class='text-center page-header'>{{ skills.title }}</h2>
+      <h2 class='page-header'>{{ skills.title }}</h2>
 
       <div class='col-xs-4'>
         <p>
@@ -42,14 +50,17 @@
     </div>
 
     <!-- EXPERIENCE -->
-    <div class='row'>
-      <h2 class='text-center page-header'>{{ experience.title }}</h2>
-      <p ng-repeat='job in experience.jobs'>
-        <strong>{{ job.workplace }}</strong>, <i>{{ job.location }}</i>
-        <span class='pull-right'>{{ job.time }}</span><br>
-        <small>{{ job.title }}</small><br>
-        <span ng-repeat='bullet in job.bullets'>{{ bullet }}<br></span>
-      </p>
+    <div class='row experience-wrapper'>
+      <h2 class='page-header'>{{ experience.title }}</h2>
+
+      <div class='col-xs-12'>
+        <p ng-repeat='job in experience.jobs'>
+          <strong>{{ job.workplace }}</strong>, <i>{{ job.location }}</i>
+          <span class='pull-right'>{{ job.time }}</span><br>
+          <small>{{ job.title }}</small><br>
+          <span class='job-bullet' ng-repeat='bullet in job.bullets'>-  {{ bullet }}<br></span>
+        </p>
+      </div>
     </div>
   </div>
 </div>
