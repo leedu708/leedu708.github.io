@@ -39,11 +39,11 @@ leedu.controller('ResumeCtrl',
         ],
       general: [
         'Git',
+        'AWS',
+        'Matlab',
         'Ubuntu Linux',
         'Sublime Text 3',
-        'AWS',
-        'Agile Methodologies',
-        'Matlab'
+        'Agile Methodologies'
         ]
     }
 
@@ -57,18 +57,31 @@ leedu.controller('ResumeCtrl',
           title: 'Tech Support Administrator',
           bullets: [
             'Prepare documentation of Electronic Medical Record (EMR) system for known errors',
-            'Install and maintain local server for remote access to patient profiles'
+            'Install and maintain local server for remote access to patient profiles',
+            'Monitor, analyze and evaluate issues related to Windows Server 2008 that services eClinicalWorks'
             ]
         },
         {
           workplace: 'Cornell University',
           location: 'Ithaca, NY',
-          time: '1/2015 - 5/2015',
+          time: '9/2014 - 12/2014',
           title: 'Research Assistant, Cornell BEE Program',
           bullets: [
             'Organized and analyzed data from a simulated Mars landing using Matlab',
             'Authored documentation for the research program: HI-SEAS Documentation'
             ]
+        },
+        {
+          workplace: 'Westbury Friends School',
+          location: 'Westbury, NY',
+          time: '3/2015 - 8/2015',
+          title: 'Tech Support, Security Management',
+          bullets: [
+            "Setup computers for the school's administrative office",
+            'Synchronized files between old and new computers',
+            'Setup outlook email server',
+            'Provide technical support for Windows 8.1'
+          ]
         },
         {
           workplace: 'Beth Israel Medical Center',
@@ -77,7 +90,8 @@ leedu.controller('ResumeCtrl',
           title: 'Lead Research Assistant, Asian Services Program',
           bullets: [
             'Surveyed patients in English and Cantonese',
-            'Analyze and organize data on patients using Excel forms'
+            'Analyze and organize data on patients using Excel forms',
+            'Assisted in publishhing the patient care website with emphasis towards the Asian community'
             ]
         },
         {
