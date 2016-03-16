@@ -1,4 +1,8 @@
 /* portfolio */
+.project-page {
+  margin-top: 50px;
+}
+
 .project-wrapper {
   width: 100%;
   height: 0;
@@ -12,12 +16,12 @@
   position: absolute;
   z-index: 1;
   left: 2.5%;
-  border: 2px solid #A3A3A3;
-  border-radius: 3px;
+  border: 3px solid #000;
+  border-radius: 5px;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
-  -webkit-filter: grayscale(85%);
-          filter: grayscale(85%);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
   -webkit-transition: all 1s ease;  
           transition: all 1s ease;
 }
@@ -30,25 +34,25 @@
 }
 
 .project-desc {
-  width: calc(95% - 4px);
+  width: calc(95% - 6px);
   height: 41%;
-  margin-top: calc(50% - 2px);
-  left: calc(2.5% + 2px);
+  margin-top: calc(50% - 3px);
+  left: calc(2.5% + 3px);
+  border-radius: 0 0 3px 3px;
   z-index: 2;
-  opacity: 0.7;
+  opacity: 0.85;
   background: #000;
   position: absolute;
-  -webkit-transition: background 1s ease;
-          transition: background 1s ease;
+  -webkit-transition: background 0.5s ease;
+          transition: background 0.5s ease;
 }
 
 .proj-title {
   margin-top: 5%;
-  font-family: 'Merriweather';
+  font-family: 'Montserrat';
   font-size: 38px;
   font-weight: 700;
   color: #FFF;
-  opacity: 1.0;
 }
 
 .proj-btn {
@@ -58,7 +62,6 @@
   font-family: 'Montserrat';
   font-weight: 700;
   margin: 0 10px;
-  opacity: 1.0;
   -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
 }

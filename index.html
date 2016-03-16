@@ -1,6 +1,6 @@
 <html ng-app='leedu'>
   <head>
-    <title>{{ $root.title }} -- Dustin Lee</title>
+    <title>{{ $root.title }}  &mdash; Dustin Lee</title>
 
     <!-- AngularJS -->
     <script src='vendor/js/angular.min.js'></script>
@@ -35,19 +35,19 @@
           </h1>
 
           <ul class='list-inline' id='navbar'>
-            <li ui-sref='about'>
+            <li ui-sref-active='navbar-active' ui-sref='about'>
               About Me
             </li>
 
-            <li ui-sref='portfolio'>
+            <li ui-sref-active='navbar-active' ui-sref='portfolio'>
               Portfolio
             </li>
 
-            <li ui-sref='resume'>
+            <li ui-sref-active='navbar-active' ui-sref='resume'>
               Resume
             </li>
             
-            <li ui-sref='contact'>
+            <li ui-sref-active='navbar-active' ui-sref='contact'>
               Contact
             </li>
           </ul>

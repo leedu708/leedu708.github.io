@@ -48,15 +48,18 @@ header {
   cursor: pointer;
   border: 2px solid transparent;
   border-radius: 5px;
-  -webkit-transition: border 0.2s ease;
-          transition: border 0.2s ease;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
 }
 
+.navbar-active,
 #navbar li:hover {
-  border: 2px solid #A3A3A3;
+  border: 2px solid #000;
   border-radius: 7px;
-  -webkit-transition: border 0.2s ease-in;
-          transition: border 0.2s ease-in;
+  background: #000;
+  color: #FFF;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
 }
 
 @media only screen and (max-width: 992px) {

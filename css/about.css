@@ -4,16 +4,28 @@
 }
 
 .about-title {
-  
+  margin-top: 70px;
+  margin-bottom: -70px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 992px) {
+  .about-title {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-size: 28px;
+  }
 }
 
 .about-section {
-  border-bottom: 2px solid #555;
-  height: 700px;
+  border-bottom: 8px double #A3A3A3;
+  height: 600px;
 }
 
 .about-section [class*='col-'] {
-  height: 700px;
+  height: 600px;
 }
 
 .about-content {

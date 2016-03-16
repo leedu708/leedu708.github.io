@@ -1,6 +1,10 @@
 <div class='about-wrapper fadeIn'>
   <div ng-repeat='content in aboutContent' class='row'>
     <div class='about-section'>
+      <div class='about-title'>
+        {{ content.title }}
+      </div>
+      
       <div class='col-xs-7 col-md-4 col-md-offset-1' ng-class="{'pull-right': content.imgRight}">
         <div class='about-content text-center'>
           <img src='{{ content.img }}'>

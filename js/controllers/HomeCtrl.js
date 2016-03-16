@@ -3,8 +3,8 @@ leedu.controller('HomeCtrl',
   function($scope, $rootScope) {
 
     $rootScope.title = 'Home';
-    $scope.header1 = 'Developer';
-    $scope.header2 = 'Designer';
+    $scope.header1 = 'Designer';
+    $scope.header2 = 'Developer';
     $scope.header3 = 'Engineer';
 
     $scope.quote = {
