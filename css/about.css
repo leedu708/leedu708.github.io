@@ -1,16 +1,27 @@
+.about-wrapper {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.about-title {
+  
+}
+
 .about-section {
   border-bottom: 2px solid #555;
+  height: 700px;
 }
 
 .about-section [class*='col-'] {
-  height: 500px;
+  height: 700px;
 }
 
 .about-content {
   width: 100%;
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .about-content img {
