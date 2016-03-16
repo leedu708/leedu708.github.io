@@ -1,4 +1,4 @@
-leedu.controller('SkillsCtrl',
+leedu.controller('ResumeCtrl',
   ['$scope', '$rootScope',
   function($scope, $rootScope) {
 
@@ -22,21 +22,18 @@ leedu.controller('SkillsCtrl',
     $scope.skills = {
       title: 'Skills',
       frontend: [
-        'JavaScript',
+        'JavaScript / jQuery',
         'AngularJS',
-        'jQuery',
         'HTML5',
         'CSS3',
+        'SASS',
         'Bootstrap'
         ],
       backend: [
-        'Ruby',
-        'Rails',
+        'Ruby / Rails',
         'SQL',
-        'SASS',
         'PostgreSQL',
-        'RSpec',
-        'Capybara',
+        'RSpec / Capybara',
         'RESTful APIs',
         'Heroku'
         ],

@@ -17,10 +17,10 @@ leedu.config( function($stateProvider, $urlRouterProvider) {
       controller: 'AboutCtrl'
     })
 
-    .state('skills', {
+    .state('resume', {
       url: '/resume',
-      templateUrl: 'views/skills.html',
-      controller: 'SkillsCtrl'
+      templateUrl: 'views/resume.html',
+      controller: 'ResumeCtrl'
     })
 
     .state('portfolio', {
