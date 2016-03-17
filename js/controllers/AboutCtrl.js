@@ -10,7 +10,7 @@ leedu.controller('AboutCtrl',
         img: '/images/placeholder.png',
         imgRight: false,
         title: 'A Brief Background...',
-        text: 'My interest in web development stems from my Engineering background. I enjoy solving problems in new and unique ways.  There is always something we can do better and faster. Some of my passions include writing intelligent code, producing beautiful applications, and all things musical.' //285
+        text: 'My interest in web development stems from my Engineering background. I enjoy solving problems in new ways.  There is always something we can do more efficiently. Some of my passions include writing clean code, producing beautiful applications, and all things musical.' //267
       },
       {
         img: '/images/placeholder.png',
@@ -22,7 +22,7 @@ leedu.controller('AboutCtrl',
         img: '/images/placeholder.png',
         imgRight: false,
         title: 'Musicality',
-        text: 'Music has always been a terrific creative outlet. I learned to play the piano from a young age. I come from a classical music background and have performed in great venues such as Steinway Hall, Tanglewood, and the Weill Recital Hall in Carnegie Hall. More recently, I have taken up the ukulele for its portability and beautiful sound.' //334
+        text: 'Music has always been my creative outlet. I learned to play the piano from a young age. I come from a classical music background and have performed in great venues such as Steinway Hall, Tanglewood, and the Weill Recital Hall in Carnegie Hall. More recently, I have taken up the ukulele for its portability and beautiful sound.' //327
       }
     ];
 
