@@ -41,3 +41,15 @@
   max-height: 100%;
   border-radius: 50%;
 }
+
+.about-spacer {
+  margin-left: 4.166667%;
+  margin-right: 4.166667%;
+}
+
+@media only screen and (max-width: 992px) {
+  .about-spacer {
+    margin-left: 2.083333%;
+    margin-right: 2.083333%;
+  }
+}

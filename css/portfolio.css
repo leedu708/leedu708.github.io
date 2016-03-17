@@ -104,7 +104,23 @@
           transition: all 0.2s ease;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
+  .project-desc {
+    height: 38%;
+  }
+
+  .proj-title {
+    font-size: 16px;
+  }
+
+  .proj-btn {
+    margin: 0 0;
+    font-size: 8px;
+  }
+}
+
+@media only screen and (min-width: 768px)
+                   and (max-width: 992px) {
   .project-desc {
     height: 39%;
   }
