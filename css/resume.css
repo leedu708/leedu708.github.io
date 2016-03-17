@@ -3,6 +3,10 @@
   font-size: 20px;
 }
 
+.experience-wrapper p {
+  margin-bottom: 50px;
+}
+
 .job-bullet {
   margin-left: 10px;
   line-height: 32px;
@@ -21,5 +25,5 @@
   background: #000;
   color: #FFF;
   -webkit-transition: all 0.2s ease;
-          transition: color 0.2s ease;
+          transition: all 0.2s ease;
 }

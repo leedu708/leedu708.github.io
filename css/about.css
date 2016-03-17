@@ -21,11 +21,11 @@
 
 .about-section {
   border-bottom: 8px double #A3A3A3;
-  height: 600px;
+  height: 550px;
 }
 
 .about-section [class*='col-'] {
-  height: 600px;
+  height: 550px;
 }
 
 .about-content {

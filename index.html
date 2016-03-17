@@ -31,10 +31,14 @@
 
         <header class='text-center animated fadeIn'>
           <h1 class='page-header' id='title'>
-            <a ui-sref='home'>Dustin Lee</a>
+            Dustin Lee
           </h1>
 
           <ul class='list-inline' id='navbar'>
+            <li ui-sref-active='navbar-active' ui-sref='home'>
+              <i class="fa fa-home"></i> Home
+            </li>
+
             <li ui-sref-active='navbar-active' ui-sref='about'>
               About Me
             </li>
@@ -45,10 +49,6 @@
 
             <li ui-sref-active='navbar-active' ui-sref='resume'>
               Resume
-            </li>
-            
-            <li ui-sref-active='navbar-active' ui-sref='contact'>
-              Contact
             </li>
           </ul>
         </header>
@@ -63,6 +63,10 @@
     <!-- footer -->
     <div class='navbar navbar-fixed-bottom footer-wrapper animated fadeIn'>
       <div class='container'>
+        <div class='footer-text'>
+          <a class='btn footer-btn' ui-sref='contact'>Contact Me</a>
+        </div>
+        
         <div class='icon-wrapper pull-right'>
           <a href='http://www.github.com/leedu708' target='_blank'>
             <span class="fa fa-github fa-2x" aria-hidden="true"></span><!--

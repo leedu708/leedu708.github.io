@@ -7,14 +7,14 @@ leedu.controller('ResumeCtrl',
       title: 'Education',
       schools: [
         {
-          name: 'Cornell University, College of Agriculture and Life Sciences',
-          location: 'Ithaca, NY',
-          description: 'Bachelor of Science in Biological Engineering, January 2015'
-        },
-        {
           name: 'Viking Code School',
           location: '',
           description: 'Major technologies taught include: Ruby, Ruby on Rails, AngularJS, SQL, Data Modeling, HTML5, CSS3, JavaScript, RSpec, and Git.  Completed December 2015'
+        },
+        {
+          name: 'Cornell University, College of Agriculture and Life Sciences',
+          location: 'Ithaca, NY',
+          description: 'Bachelor of Science in Biological Engineering, January 2015'
         }
       ]
     };
