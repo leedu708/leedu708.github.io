@@ -47,6 +47,8 @@
   opacity: 0.85;
   background: #000;
   position: absolute;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 .proj-title {
