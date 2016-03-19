@@ -19,7 +19,7 @@ leedu.controller('AboutCtrl',
         text: "I love my ukulele. My childhood dog and cat were named Maggi and Kikkoman. My favorite color is green and by extension I enjoy the spring months the most. My game of choice right now is Hearthstone. I have never broken any bone in my body. I cook a mean steak and enjoy a wide array of cuisines." //295
       },
       {
-        img: '/images/placeholder.png',
+        img: '/images/about3.png',
         imgRight: false,
         title: 'Musicality',
         text: 'Music has always been my creative outlet. I learned to play the piano from a young age. I come from a classical music background and have performed in great venues such as Steinway Hall, Tanglewood, and the Weill Recital Hall in Carnegie Hall. More recently, I have taken up the ukulele for its portability and beautiful sound.' //327
