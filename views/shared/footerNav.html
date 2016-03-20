@@ -1,0 +1,17 @@
+<div class='navbar navbar-fixed-bottom footer-wrapper animated fadeIn'>
+  <div class='container'>
+    <div class='footer-text'>
+      <a class='btn footer-btn' ui-sref='contact'>Contact Me</a>
+    </div>
+
+    <div class='icon-wrapper pull-right'>
+      <ul class='list-inline'>
+        <li ng-repeat='medium in socialMedia'>
+          <a href='{{ medium.link }}' target='_blank'>
+            <span class="fa {{ medium.faClass }} fa-3x" aria-hidden="true"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

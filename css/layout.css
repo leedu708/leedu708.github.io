@@ -110,13 +110,21 @@ header {
 
 .icon-wrapper {
   position: relative;
+  height: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.icon-wrapper ul {
+  position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
 .icon-wrapper .fa {
-  margin-left: 20px;
+  margin-left: 10px;
   color: #A3A3A3;
   -webkit-transition: color 0.2s ease-out;
           transition: color 0.2s ease-out;
