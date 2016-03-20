@@ -21,7 +21,7 @@
   z-index: 1;
   left: 2.5%;
   border: 3px solid #000;
-  border-radius: 5px;
+  border-radius: 10px;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-filter: grayscale(70%);
@@ -139,6 +139,10 @@
 
 @media only screen and (min-width: 993px)
                    and (max-width: 1200px) {
+  .project-desc {
+    height: 40%;
+  }
+  
   .proj-title {
     font-size: 24px;
   }
