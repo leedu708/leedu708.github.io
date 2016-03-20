@@ -6,3 +6,12 @@ p {
 p .fa {
   margin-right: 10px;
 }
+
+#contactForm {
+  min-height: 550px;
+  height: auto;
+  overflow: auto;
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+}
