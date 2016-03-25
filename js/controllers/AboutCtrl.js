@@ -7,7 +7,7 @@ leedu.controller('AboutCtrl',
     // 380 char limit to text
     $scope.aboutContent = [
       {
-        img: '/images/placeholder.png',
+        img: '/images/profile.png',
         imgRight: false,
         title: 'A Brief Background...',
         text: 'My interest in web development stems from my Engineering background. I enjoy solving problems in new ways.  There is always something we can do more efficiently. Some of my passions include writing clean code, producing beautiful applications, and all things musical.' //267
