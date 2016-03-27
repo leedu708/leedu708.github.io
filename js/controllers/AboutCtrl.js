@@ -13,7 +13,7 @@ leedu.controller('AboutCtrl',
         text: 'My interest in web development stems from my Engineering background. I enjoy solving problems in new ways.  There is always something we can do more efficiently. Some of my passions include writing clean code, producing beautiful applications, and all things musical.' //267
       },
       {
-        img: '/images/placeholder.png',
+        img: '/images/about2.png',
         imgRight: true,
         title: 'A Few Fun Facts',
         text: "I love my ukulele. My childhood dog and cat were named Maggi and Kikkoman. My favorite color is green and by extension I enjoy the spring months the most. My game of choice right now is Hearthstone. I have never broken any bone in my body. I cook a mean steak and enjoy a wide array of cuisines." //295
