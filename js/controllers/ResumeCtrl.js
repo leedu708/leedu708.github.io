@@ -91,7 +91,7 @@ leedu.controller('ResumeCtrl',
           bullets: [
             'Surveyed patients in English and Cantonese',
             'Analyze and organize data on patients using Excel forms',
-            'Assisted in publishhing the patient care website with emphasis towards the Asian community'
+            'Assisted in publishing the patient care website with emphasis towards the Asian community'
             ]
         },
         {
