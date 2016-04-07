@@ -58,7 +58,7 @@ leedu.controller('ResumeCtrl',
           bullets: [
             'Prepare documentation of Electronic Medical Record (EMR) system for known errors',
             'Install and maintain local server for remote access to patient profiles',
-            'Monitor, analyze and evaluate issues related to Windows Server 2008 that services eClinicalWorks'
+            'Build back­end applications that improve workflow offsite'
             ]
         },
         {
