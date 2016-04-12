@@ -7,7 +7,7 @@ leedu.controller('PortfolioCtrl',
     $scope.projects = [
       {
         title: 'Evergreen',
-        description: 'A curation platform where users can share their favorite online resources. The application features a CMS only accessible to administrative users for controlling the various collections and site information.',
+        description: 'A curation platform where users can share their favorite online resources. The application features a CMS only accessible to admin users for controlling the collections and site information. To access the seeded Admin account, login using email: admin@test.com / password: password',
         tech: 'Ruby on Rails, AngularJS, Bootstrap, JavaScript, HTML5, CSS3, RSpec, Heroku',
         img: '/images/evergreen.jpg',
         github: 'https://github.com/leedu708/evergreen',
