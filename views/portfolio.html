@@ -1,21 +1,59 @@
 <div class='row project-page'>
-  <div class='col-xs-4 text-center project' ng-repeat='project in projects'>
-    <div class='project-wrapper' ng-mouseenter='hover=true' ng-mouseleave='hover=false'>
-      <img class='fadeIn' src='{{ project.img }}'>
-      <div class='project-desc fadeIn' ng-class="{'project-desc-hover': hover}">
-        <div class='row proj-title'>
-          <div class='col-xs-10 col-xs-offset-1 text-center'>
-            {{ project.title }}
-          </div>
-        </div>
+  <div class='col-xs-4 project' ng-repeat='project in projects'>
+    <div class='project-wrapper'
+         ng-mouseenter='hover=true'
+         ng-mouseleave='hover=false'
+         ng-class='{flipped: flipped(project)}'>
+      <div class='flipper'>
+        <div class='front text-center'>
+          <img class='fadeIn' src='{{ project.img }}'>
+          <div class='project-desc fadeIn'
+               ng-class="{'project-desc-hover': hover}">
 
-        <div class='row proj-links-wrapper'>
-          <div class='col-xs-12 text-center'>
-            <a ng-if='project.preview.length' class='btn proj-btn' href='{{ project.preview }}' target='_blank'>Live Preview</a>
-            <a class='btn proj-btn' href='{{ project.github }}' target='_blank'>View on GitHub</a>
+            <i class='fa fa-question-circle fa-2x'
+               ng-click='flip(project)'
+               ng-if='hover'></i>
+            <div class='row proj-title'>
+              <div class='col-xs-10 col-xs-offset-1 text-center'>
+                {{ project.title }}
+              </div>
+            </div>
+
+            <div class='row proj-links-wrapper'>
+              <div class='col-xs-12 text-center'>
+                <a ng-if='project.preview.length'
+                   class='btn proj-btn' href='{{ project.preview }}'
+                   target='_blank'>
+                    Live Preview
+                </a>
+
+                <a class='btn proj-btn'
+                   href='{{ project.github }}'
+                   target='_blank'>
+                    View on GitHub
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        </div><!-- FRONT -->
+
+        <div class='back'>
+          <div class='project-back'>
+            <button class='close pull-right'
+                    ng-click='closeFlip(project)'>&times;</button>
+            <div class='proj-title'>
+              <div class='col-xs-10 col-xs-offset-1 text-center'>
+                {{ project.title }}
+              </div>
+            </div>
+
+            <div class='col-xs-12 back-desc'>
+              {{ project.description }}<br><br>
+              Tech: {{ project.tech }}
+            </div>
+          </div>
+        </div><!-- BACK -->
+      </div><!-- FLIPPER -->
     </div>
   </div>
 
