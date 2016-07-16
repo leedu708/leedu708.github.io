@@ -27,7 +27,8 @@
                     Live Preview
                 </a>
 
-                <a class='btn proj-btn'
+                <a ng-if='project.github.length'
+                   class='btn proj-btn'
                    href='{{ project.github }}'
                    target='_blank'>
                     View on GitHub
