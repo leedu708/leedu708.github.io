@@ -18,7 +18,6 @@ leedu.controller('PortfolioCtrl',
         description: 'An E-Commerce built on WordPress using a modified version of the eStore theme.  Products and orders are managed through the WordPress plugin, WooCommerce.',
         tech: 'WordPress, PHP, HTML5, CSS3, JavaScript, jQuery',
         img: '/images/freudenbergarts.jpg',
-        github: '',
         preview: 'http://www.freudenbergarts.com'
       },
       {
