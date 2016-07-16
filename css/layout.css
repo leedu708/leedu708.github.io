@@ -25,16 +25,6 @@ header {
   border-bottom: 5px solid #EEE;
 }
 
-#title a {
-  color: #000;
-}
-
-#title a:hover,
-#title a:focus,
-#title a:active {
-  text-decoration: none;
-}
-
 /* navbar */
 
 #navbar li {

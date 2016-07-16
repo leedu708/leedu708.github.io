@@ -14,6 +14,14 @@ leedu.controller('PortfolioCtrl',
         preview: 'http://fast-shore-10637.herokuapp.com/'
       },
       {
+        title: 'Freudenberg Arts',
+        description: 'An E-Commerce built on WordPress using a modified version of the eStore theme.  Products and orders are managed through the WordPress plugin, WooCommerce.',
+        tech: 'WordPress, PHP, HTML5, CSS3, JavaScript, jQuery',
+        img: '/images/freudenbergarts.jpg',
+        github: '',
+        preview: 'http://www.freudenbergarts.com'
+      },
+      {
         title: 'Danebook',
         description: 'Full-featured social network site built with Ruby on Rails. Includes image uploading with Amazon S3 and production on Heroku.',
         tech: 'Ruby on Rails, AJAX, jQuery, Bootstrap, RSpec, Amazon S3, Heroku',

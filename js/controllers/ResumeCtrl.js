@@ -27,7 +27,8 @@ leedu.controller('ResumeCtrl',
         'HTML5',
         'CSS3',
         'SASS',
-        'Bootstrap'
+        'Bootstrap',
+        'PHP'
         ],
       backend: [
         'Ruby / Rails',
@@ -40,6 +41,7 @@ leedu.controller('ResumeCtrl',
       general: [
         'Git',
         'AWS',
+        'WordPress',
         'Matlab',
         'Ubuntu Linux',
         'Sublime Text 3',
@@ -60,6 +62,17 @@ leedu.controller('ResumeCtrl',
             'Install and maintain local server for remote access to patient profiles',
             'Build back­end applications that improve workflow offsite'
             ]
+        },
+        {
+          workplace: 'Freelance Project With Catherine Freudenberg',
+          location: 'Oyster Bay, NY',
+          time: '5/2016 - 7/2016',
+          title: 'Freelance WordPress Developer',
+          bullets: [
+            'Developed E-Commerce site using WordPress and WooCommerce Plugin',
+            'Modified theme, eStore, chosen by client to suit her needs through PHP, CSS and jQuery',
+            'Edited photographs of products on site using Gimp'
+          ]
         },
         {
           workplace: 'Cornell University',
