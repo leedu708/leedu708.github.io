@@ -27,11 +27,11 @@ leedu.controller('ResumeCtrl',
         'HTML5',
         'CSS3',
         'SASS',
-        'Bootstrap',
-        'PHP'
+        'Bootstrap'
         ],
       backend: [
         'Ruby / Rails',
+        'PHP',
         'SQL',
         'PostgreSQL',
         'RSpec / Capybara',
