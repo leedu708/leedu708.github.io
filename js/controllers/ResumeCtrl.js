@@ -71,7 +71,7 @@ leedu.controller('ResumeCtrl',
           bullets: [
             'Developed E-Commerce site using WordPress and WooCommerce Plugin',
             'Modified theme, eStore, chosen by client to suit her needs through PHP, CSS and jQuery',
-            'Edited photographs of products on site using Gimp'
+            'Edited and curated photographs for products in the shop'
           ]
         },
         {
