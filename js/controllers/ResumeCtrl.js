@@ -7,6 +7,11 @@ leedu.controller('ResumeCtrl',
       title: 'Education',
       schools: [
         {
+          name: 'Oregon State University, College of Engineering',
+          location: 'Corvallis, OR',
+          description: 'Bachelor of Science in Computer Science.  Expected May 2017'
+        },
+        {
           name: 'Viking Code School',
           location: '',
           description: 'Major technologies taught include: Ruby, Ruby on Rails, AngularJS, SQL, Data Modeling, HTML5, CSS3, JavaScript, RSpec, and Git.  Completed December 2015'
