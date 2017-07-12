@@ -46,15 +46,13 @@ leedu.controller('ResumeCtrl',
         'Heroku'
         ],
       general: [
-        'C++',
         'C',
+        'C++',
         'Git',
         'AWS',
         'Python',
         'WordPress',
-        'Matlab',
         'Ubuntu Linux',
-        'Sublime Text 3',
         'Agile Methodologies'
         ]
     }
