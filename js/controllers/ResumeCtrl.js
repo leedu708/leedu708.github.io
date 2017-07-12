@@ -24,6 +24,26 @@ leedu.controller('ResumeCtrl',
       ]
     };
 
+    // 5 per array (column)
+    $scope.courses = {
+      title: 'Relevant Coursework',
+      course_names: [
+        ['Analysis of Algorithms',
+        'Computer Architecture & Assembly Language',
+        'Data Structures',
+        'Discrete Structures',
+        'Introduction to Databases'
+       ],
+       [
+        'Introduction to Usability Engineering',
+        'Mobile and Cloud Software Development',
+        'Operating Systems',
+        'Software Engineering I & II',
+        'Web Development'
+       ]
+     ]
+    };
+
     $scope.skills = {
       title: 'Skills',
       frontend: [

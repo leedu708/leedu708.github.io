@@ -17,6 +17,19 @@
       </div>
     </div>
 
+    <!-- Coursework -->
+    <div class='row courses-wrapper'>
+      <h2 class='page-header'>
+        {{ courses.title }}
+      </h2>
+
+      <div ng-repeat='courseCol in courses.course_names' class='col-xs-{{ 12 / courses.course_names.length }}'>
+        <ul>
+          <li ng-repeat='name in courseCol'>{{ name }}</li>
+        </ul>
+      </div>
+    </div>
+
     <!-- SKILLS -->
     <div class='row skills-wrapper'>
       <h2 class='page-header'>{{ skills.title }}</h2>
