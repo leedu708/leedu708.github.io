@@ -28,24 +28,29 @@ leedu.controller('ResumeCtrl',
       title: 'Skills',
       frontend: [
         'JavaScript / jQuery',
+        'Node.js',
         'AngularJS',
+        'Bootstrap',
         'HTML5',
         'CSS3',
-        'SASS',
-        'Bootstrap'
+        'SASS'
         ],
       backend: [
         'Ruby / Rails',
         'PHP',
         'SQL',
+        'MySQL',
         'PostgreSQL',
         'RSpec / Capybara',
         'RESTful APIs',
         'Heroku'
         ],
       general: [
+        'C++',
+        'C',
         'Git',
         'AWS',
+        'Python',
         'WordPress',
         'Matlab',
         'Ubuntu Linux',
@@ -57,6 +62,17 @@ leedu.controller('ResumeCtrl',
     $scope.experience = {
       title: 'Experience',
       jobs: [
+        {
+          workplace: 'Varsity Tutors',
+          location: 'Houston, TX',
+          time: '2/2017 - Present',
+          title: 'SAT Tutor',
+          bullets: [
+            'Create and execute tutoring plans for individual students to best suit their skill levels, and their time frame before their next exam',
+            'Build environments that encourage consistent learning and practice',
+            'Establish a foundation for more difficult concepts in order to help students better understand abstract ideas'
+          ]
+        },
         {
           workplace: 'Elmhurst Medical Clinic',
           location: 'Elmhurst, NY',
