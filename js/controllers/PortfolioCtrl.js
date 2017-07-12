@@ -19,7 +19,7 @@ leedu.controller('PortfolioCtrl',
         tech: 'WordPress, PHP, HTML5, CSS3, JavaScript, jQuery',
         img: '/images/freudenbergarts.jpg',
         github: '',
-        preview: 'http://www.freudenbergarts.com'
+        preview: ''
       },
       {
         title: 'Danebook',
