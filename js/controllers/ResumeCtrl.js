@@ -9,7 +9,7 @@ leedu.controller('ResumeCtrl',
         {
           name: 'Oregon State University, College of Engineering',
           location: 'Corvallis, OR',
-          description: 'Bachelor of Science in Computer Science.  Expected May 2017'
+          description: 'Bachelor of Science in Computer Science, August 2017'
         },
         {
           name: 'Viking Code School',
@@ -50,7 +50,11 @@ leedu.controller('ResumeCtrl',
         'JavaScript / jQuery',
         'Node.js',
         'AngularJS',
+        'Angular 2/4',
+        'ReactJS',
         'Bootstrap',
+        'ChartJS',
+        'Material Design',
         'HTML5',
         'CSS3',
         'SASS'
@@ -61,6 +65,8 @@ leedu.controller('ResumeCtrl',
         'SQL',
         'MySQL',
         'PostgreSQL',
+        'NoSQL',
+        'MongoDB',
         'RSpec / Capybara',
         'RESTful APIs',
         'Heroku'
@@ -69,7 +75,8 @@ leedu.controller('ResumeCtrl',
         'C',
         'C++',
         'Git',
-        'AWS',
+        'BitBucket',
+        'Amazon Web Services (AWS)',
         'Python',
         'WordPress',
         'Ubuntu Linux',
@@ -81,9 +88,20 @@ leedu.controller('ResumeCtrl',
       title: 'Experience',
       jobs: [
         {
+          workplace: 'Aesbus',
+          location: 'Houston, TX',
+          time: '8/2017 - Present',
+          title: 'Full-Stack Developer',
+          bullets: [
+            'Developed an Error Tool application to optimize workflow for agents at many call centers. About 80,000 errors are processed each month, increasing productivity by over 500%.',
+            'Developed a knowledge base that allowed agents to easily access instructions for guiding the company’s customers in fixing their device issues. Provided both an authoring component for the documentation as well as the front-end tool for the agents.',
+            'Created several analytics Dashboards for viewing data in charts and tables. Worked with datasets that featured over 600,000 elements'
+          ]
+        },
+        {
           workplace: 'Varsity Tutors',
           location: 'Houston, TX',
-          time: '2/2017 - Present',
+          time: '2/2017 - 8/2017',
           title: 'SAT Tutor',
           bullets: [
             'Create and execute tutoring plans for individual students to best suit their skill levels, and their time frame before their next exam',
@@ -94,7 +112,7 @@ leedu.controller('ResumeCtrl',
         {
           workplace: 'Elmhurst Medical Clinic',
           location: 'Elmhurst, NY',
-          time: '2013 - Present',
+          time: '2013 - 8/2017',
           title: 'Tech Support Administrator',
           bullets: [
             'Prepare documentation of Electronic Medical Record (EMR) system for known errors',
